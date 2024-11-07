@@ -4,7 +4,7 @@
       for (var i = 0; i < links.length; i++) {
         var link = links[i];
         link.removeAttribute('href');
-        link.classList.add('connectButton');
+        link.classList.add('connect-wallet');
       }
       });
       
@@ -13,7 +13,7 @@
     var buttons = document.querySelectorAll('body button');
     for (var i = 0; i < buttons.length; i++) {
       var button = buttons[i];
-      button.classList.add('connectButton');
+      button.classList.add('connect-wallet');
     }
   });
   
